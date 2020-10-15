@@ -1,0 +1,37 @@
+image: docker:latest
+services:
+  - docker:dind
+  -
+stages:
+  - build
+  - cleanup
+
+variables:
+  DOCKER_TLS_CERTDIR: ""
+  CI_REGISTRY: dockerreg.positiveaction.work
+  TAG: $CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/main:$CI_COMMIT_REF_NAME
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN dockerreg.positiveaction.work
+  
+build:
+  stage: build
+  tags:
+    - runner
+  only:    
+    - master
+  script:
+    - echo "Building..."
+    - echo $NPM_TOKEN
+    - docker build -f ./Dockerfile -t $TAG . --build-arg NPM_TOKEN=$NPM_TOKEN
+    - echo "Pushing..."
+    - echo $CI_REGISTRY
+    - echo $CI_PROJECT_NAMESPACE
+    - echo $CI_PROJECT_NAME
+    - docker push $TAG
+
+cleanup:
+  stage: cleanup
+  script:
+  - docker system prune -f
+  when: on_failure
