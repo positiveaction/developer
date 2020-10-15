@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'PA DOC',
-  tagline: 'The tagline of my site',
+  title: "PA Developer's  Wiki/Documentation",
+  tagline: 'Effective Social & Emotional Learning',
   url: 'https://www.positiveaction.net/documentation',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -79,8 +79,8 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'GitLab',
+              href: 'https://gitlab.positiveaction.work/developer/dev-wiki',
             },
           ],
         },
@@ -96,13 +96,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://gitlab.positiveaction.work/developer/dev-wiki/edit/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://gitlab.positiveaction.work/developer/dev-wiki/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
