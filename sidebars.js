@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    Component: ['componentDefinition', 'componentsType'],
+    'Component Introduction': ['componentDefinition', 'componentsType'],
+    Components: ['components/basic','components/text'],
     API: ['apiIntroduction'],
     Examples: ['examples'],
   },
