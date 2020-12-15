@@ -28,4 +28,3 @@ Here below you can see the list of built-in component types, ordered by their po
 * [`default`](https://github.com/artf/grapesjs/blob/dev/src/dom_components/model/Component.js) - Default base component
 
 
-

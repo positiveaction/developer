@@ -16,14 +16,14 @@ This is what a component looks like
 {
  "type": "text",
  "content": "",
+ "tagName":"",
  "attributes": {
    "id": "i8cs"
  },
  "components": [
    {
      "type": "textnode",
-     "content": "Lorem ipsum dolor sit amet",
-     "tagName": "",
+     "content": "Lorem ipsum dolor sit amet",     
    }
  ],
 }
@@ -43,6 +43,9 @@ String attribute **type** define the component type, we have a list with all sup
 Content of the component, for example for a simple textnode, atomic component, it is a string 
 ### attributes
 An object of attributes. Each component can have specific attributes, for example: id, font-size, align, etc.
+
+### tagName
+String attribute HTML tag of the component, eg. `span`. Default: `div` 
 
 ### components
 Array of objects, a component can have one or multiple components as children's. 
