@@ -4,5 +4,7 @@ module.exports = {
     Components: ['components/basic','components/text', 'components/wrapper', 'components/image', 'components/table'],
     API: ['apiIntroduction'],
     Examples: ['examples'],
+    "API Gateway": ['apiGateway'],
+    "GraphQL Schema":["generateTypes"]
   },
 };
