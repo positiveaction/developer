@@ -1,16 +1,16 @@
 module.exports = {
   title: "PA Developer's  Wiki/Documentation",
-  tagline: 'Effective Social & Emotional Learning',
-  url: 'https://www.positiveaction.net/documentation',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'Positive Action, Inc.', // Usually your GitHub org/user name.
-  projectName: 'documentation', // Usually your repo name.
+  tagline: "Effective Social & Emotional Learning",
+  url: "https://positiveaction.github.io",
+  baseUrl: "/developer-docs/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon.ico",
+  organizationName: "positiveaction", // Usually your GitHub org/user name.
+  projectName: "developer-docs", // Usually your repo name.
   themeConfig: {
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'light',
+      defaultMode: "light",
     },
     /*algolia: {
       apiKey: 'YOUR_API_KEY',
@@ -18,69 +18,69 @@ module.exports = {
       searchParameters: {}, // Optional (if provided by Algolia)
     },*/
     navbar: {
-      title: 'PA Dev Wiki',
+      title: "PA Dev Wiki",
       logo: {
-        alt: 'Positive Action Documentation',
-        src: 'img/logo.svg',
+        alt: "Positive Action Documentation",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: "blog", label: "Blog", position: "left" },
         {
-          href: 'https://gitlab.positiveaction.work/developer/dev-wiki',
-          label: 'GitLab',
-          position: 'right',
+          href: "https://gitlab.positiveaction.work/developer/dev-wiki",
+          label: "GitLab",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: "Style Guide",
+              to: "docs/",
+            },
+            /* {
+              label: "Second Doc",
+              to: "docs/doc2/",
+            }, */
+          ],
+        },
+        {
+          title: "Community",
+          items: [
+            {
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
+            },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/docusaurus",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "More",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitLab',
-              href: 'https://gitlab.positiveaction.work/developer/dev-wiki',
+              label: "GitLab",
+              href: "https://gitlab.positiveaction.work/developer/dev-wiki",
             },
           ],
         },
@@ -90,22 +90,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://gitlab.positiveaction.work/developer/dev-wiki/edit/master',
+            "https://gitlab.positiveaction.work/developer/dev-wiki/edit/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://gitlab.positiveaction.work/developer/dev-wiki/edit/master/blog/',
+            "https://gitlab.positiveaction.work/developer/dev-wiki/edit/master/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
