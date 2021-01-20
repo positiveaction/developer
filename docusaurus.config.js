@@ -32,8 +32,8 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://gitlab.positiveaction.work/developer/dev-wiki",
-          label: "GitLab",
+          href: "https://github.com/positiveaction/developer-docs",
+          label: "GitHub",
           position: "right",
         },
       ],
@@ -48,10 +48,6 @@ module.exports = {
               label: "Style Guide",
               to: "docs/",
             },
-            /* {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            }, */
           ],
         },
         {
@@ -79,8 +75,8 @@ module.exports = {
               to: "blog",
             },
             {
-              label: "GitLab",
-              href: "https://gitlab.positiveaction.work/developer/dev-wiki",
+              label: "GitHub",
+              href: "https://github.com/positiveaction/developer-docs",
             },
           ],
         },
@@ -94,15 +90,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl:
-            "https://gitlab.positiveaction.work/developer/dev-wiki/edit/master",
+            "https://github.com/positiveaction/developer-docs/edit/master",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            "https://gitlab.positiveaction.work/developer/dev-wiki/edit/master/blog/",
+            "https://github.com/positiveaction/developer-docs/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
