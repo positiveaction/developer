@@ -1,7 +1,7 @@
 module.exports = {
   title: "PA Developer's  Wiki/Documentation",
   tagline: "Effective Social & Emotional Learning",
-  url: "https://positiveaction.github.io",
+  url: "https://developer.positiveaction.net",
   baseUrl: "/developer-docs/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
