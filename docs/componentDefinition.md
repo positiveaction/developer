@@ -4,7 +4,7 @@ title: Component Definition
 sidebar_label: Component Definition
 slug: /
 ---
-## Define Components - TEST MSG
+## Define Components - TEST MSG 2
 A Component is an object containing information about how the element is rendered in the canvas (managed in the View) and how it might look its final code (created by the properties in the Model). Generally, all Model properties are reflected in the View. 
 We have a list of [components type](componentsType#components-type) 
 
