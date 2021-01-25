@@ -3,7 +3,7 @@ id: table
 title: Table Component
 ---
 ![img](../../static/img/components/table.png)
-### Simple table componentsss
+### Simple table component
 ```json
 {
 	"type": "table",
