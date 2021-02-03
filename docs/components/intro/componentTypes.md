@@ -3,7 +3,7 @@ id: componentTypes
 title: Component Types
 ---
 
-This is a link to [another document.](../../introduction.md). This is a link to an [external page.](http://www.example.com/)
+This is a link to an [external page.](http://www.example.com/)
 ## Built-in Component Types
 
 Here below you can see the list of built-in component types, ordered by their position in the **Component Type Stack**
