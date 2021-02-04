@@ -37,7 +37,7 @@ The real **Component Definition** would be a little bit bigger so so we'd reduce
 
 
 ### type
-String attribute **type** define the component type, we have a list with all supported components. We have a list of [components type](componentTypes#components-type) 
+String attribute **type** define the component type, we have a list with all supported components. We have a list of [components type](components/intro/componentTypes#components-type) 
 
 ### content
 Content of the component, for example for a simple textnode, atomic component, it is a string 
