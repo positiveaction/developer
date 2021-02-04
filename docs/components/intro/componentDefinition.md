@@ -6,7 +6,7 @@ slug: /
 ---
 ## Define Components
 A Component is an object containing information about how the element is rendered in the canvas (managed in the View) and how it might look its final code (created by the properties in the Model). Generally, all Model properties are reflected in the View. 
-We have a list of [components type](componentsType#components-type) 
+We have a list of [components type](components/intro/componentTypes#components-type) 
 
 The Component is a base element of the template. It might be something simple and atomic like an image or a text box, but also complex structures, more probably composed by other components, like sections or pages.
 
