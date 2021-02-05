@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     Introduction: [
-      'introduction'
+      'introduction',
     ],
     'Getting started': [
       'gettingStarted/agreementOverview',
@@ -12,7 +12,10 @@ module.exports = {
       'reference/contentStructure',
       'reference/lessonAttributes',
       {
-        GraphQL : [
+        type: 'category',
+        label: 'GraphQL',
+        collapsed: false,
+        items: [
           'reference/graphql/gqlOverview',
           'reference/graphql/gqlRequests',
           'reference/graphql/gqlAuthorization',

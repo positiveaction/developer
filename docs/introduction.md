@@ -1,6 +1,7 @@
 ---
 id: introduction
 title: Positive Action API
+slug: /
 ---
 ## What is the Positive Action API?
 The Positive Action GraphQL API lets you build apps to retrieve the resources that you have access to (wording should be improved to highlight the fact that you will get access to the products/grades you own with tags, attributes and other resources we provide). These documents have been created to assist developers to get set up and start making requests to the Positive Action API.
