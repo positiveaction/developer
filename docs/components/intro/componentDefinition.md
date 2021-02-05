@@ -5,7 +5,7 @@ sidebar_label: Component Definition
 ---
 ## Define Components
 A Component is an object containing information about how the element is rendered in the canvas (managed in the View) and how it might look its final code (created by the properties in the Model). Generally, all Model properties are reflected in the View. 
-We have a list of [components type](components/intro/componentTypes#components-type) 
+We have a list of [components type](componentTypes#components-type) 
 
 The Component is a base element of the template. It might be something simple and atomic like an image or a text box, but also complex structures, more probably composed by other components, like sections or pages.
 
@@ -36,7 +36,7 @@ The real **Component Definition** would be a little bit bigger so so we'd reduce
 
 
 ### type
-String attribute **type** define the component type, we have a list with all supported components. We have a list of [components type](components/intro/componentTypes#components-type) 
+String attribute **type** define the component type, we have a list with all supported components. We have a list of [components type](componentTypes#components-type) 
 
 ### content
 Content of the component, for example for a simple textnode, atomic component, it is a string 
